@@ -26,9 +26,35 @@ nav div:nth-child(2) a{
     text-decoration: none;
     font-size: 16pt;
 }
-section{
+body section:nth-child(2){
     width: 100%;
     height: 380px;
     background-image: url("images/banner.jpg");
     background-size: cover;
+}
+.informativo{
+    display: flex;
+    height: 400px;
+    padding: 0 50px;
+}
+.informativo img{
+    width: 400px;
+    height: 300px;
+}
+.informativo div{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.informativo p{
+    color: rgb(59, 59, 59);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13pt;
+}
+.informativo h2{
+    color: rgb(0, 80, 0);
+    font-size: 26pt;
 }
