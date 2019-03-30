@@ -58,3 +58,19 @@ body section:nth-child(2){
     color: rgb(0, 80, 0);
     font-size: 26pt;
 }
+footer{
+    height: 150px;
+    background-color: rgb(139, 185, 255);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+footer a{
+    text-decoration: none;
+}
+footer div{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
